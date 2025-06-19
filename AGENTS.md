@@ -61,6 +61,10 @@ Markdown best practices
 
 Use regular markdown headers (##, ###, etc.) for internal structure. Inline LaTeX-style math is allowed using $...$, and block math can be written using $$...$$. If you’re describing a diagram, be as vivid and spatially descriptive as possible—assume the reader may not see the picture.
 
+Using git
+
+Create a branch using a format like XX_YY_section_title, where XX is the chapter number and YY is the section number. Commit your changes with clear messages like “Add section 1.3 on ε-δ continuity.” When you’re ready, create a pull request against the main branch with a title like “Add section 1.3 – ε-δ & continuity” and a description summarizing your changes.
+
 Outline
 
 part 0 – orientation  
